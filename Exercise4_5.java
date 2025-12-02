@@ -1,3 +1,10 @@
+/*
+ * Ad Soyad: Birgül Göktürk
+ * Ogrenci No:250541094
+ * Tarih:02.12.2025
+ * 
+
+
 public class Exercise4_5 {
 
     public static void zoop(String fred, int bob) {
@@ -25,3 +32,33 @@ public class Exercise4_5 {
         System.out.println("any " + strangStrung + "more ");
     }
 }
+
+
+
+1. Stack Diyagramı
+
+|---------------------------------------------|
+| zoop (Aktif Metot)                          |
+|   [Parametre] fred: " breakfast "           |
+|   [Parametre] bob : 4                       |
+|   [Yerel Değişken]: Yok                     |
+|---------------------------------------------|
+| clink                                       |
+|   [Parametre] fork: 4                       |
+|   [Yerel Değişken]: Yok                     |
+|---------------------------------------------|
+| main                                        |
+|   [Parametre] args: [String dizisi]         |
+|   [Yerel Değişken] bizz: 5                  |
+|   [Yerel Değişken] buzz: 2                  |
+|---------------------------------------------|
+
+
+
+
+2. Programın Tam Çıktısı
+
+    just for 
+ any  not  more 
+It ’s  breakfast 
+!
